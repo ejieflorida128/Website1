@@ -1,0 +1,122 @@
+*{
+    
+    font-family: Arial, sans-serif;
+ font-size: 55px;
+}
+
+body{
+    
+    background: url('camp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  height: 80vh; /* Adjust the height as needed */
+}
+
+.box {
+
+     border: 10px solid black;
+     margin-left: 50px;
+     margin-right: 30px;
+    margin-top: 50px;
+     
+     border-radius: 100px;
+     padding-top: 300px;
+     padding-bottom: 400px;
+     padding-right:  80px;
+     padding-left: 40px;
+     box-shadow: 50px 50px 40px black;
+  /* Add any additional styling for the box */
+}
+
+.text b{
+position: relative;
+bottom: 150px;
+font-style: sans-serif ;
+text-align: center;
+justify-content: center;
+    padding: 5px;
+    font-size: 150px;
+    color: white;
+    
+    
+}
+
+.button{
+    
+   position: relative;
+   left: 280px;
+   
+   
+   
+   
+   
+}
+
+.line{
+    
+    border: solid 10px red;
+    width: 143px;
+    position: relative;
+    bottom: 183px;
+    margin-left: 14px;
+    
+    
+    
+    
+}
+
+
+.designme b{
+font-size: 50px;
+width: 100px;
+height: 100px;
+   color: black;
+   background: red;
+   text-align: center;
+   position: relative;
+   bottom: -1600px;
+   left: 800px;
+   padding: 50px 60px;
+   
+   animation: animation1 8s infinite ;
+   
+  
+   
+   
+}
+
+
+@keyframes animation1 {
+
+ 0%{background-color: red;}
+  10%{background-color: violet;}
+   20%{background-color: pink;}
+    30%{background-color: green;}
+     40%{background-color: yellow;}
+  50%{background-color: white;}
+   60%{background-color: orange;}
+    70%{background-color: #00ffff;}   
+     80%{background-color: #902bff;}
+  90%{background-color: #80ffc1;}
+   100%{background-color: #ff5e00;}
+    
+}
+
+@keyframes animation2{
+ 0%{transform: Horizontally(0px);}
+ 100%{transform: Horizontally(50px);}
+  
+}
+
+ 
+
+
+                        

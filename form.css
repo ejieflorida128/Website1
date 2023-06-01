@@ -1,0 +1,48 @@
+*{
+    font-size: 30px;
+    color: white;
+}
+
+html body{
+    
+    background: url('bgform.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+form{
+    
+    margin-top: 50px;
+    padding: 30px;
+    letter-spacing: 2px;
+}
+table{
+    
+    margin-top: 45px;
+    padding: 50px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 700px;
+    position: relative;
+    left: 130px;
+}
+
+#buttons{
+    
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+    padding: 10px;
+    justify-content: center;
+    left: 270px;
+    color: black;
+  
+}

@@ -1,0 +1,183 @@
+
+*{
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+body{
+    
+    background: url('sky.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 0px;
+    margin-left: 0px;
+   margin-right: 0px;
+   font: sans-serif;
+   
+   
+}
+
+.nav{
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 120px;
+    background-color: #dca480aa;
+ 
+    
+    
+    
+}
+
+.menus{
+    margin-top: 30px;
+    padding-left: 25px ;
+    padding-right: 25px;
+    
+    
+     
+}
+
+#about{
+    
+    border: 10px solid red;
+    border-left: 0px;
+    border-top: 0px;
+   border-right: 0px;
+   
+}
+
+.nav .menus ul li a b{
+    
+    position: relative;
+    left: 45px;
+    font-size: 28px;
+}
+
+
+
+
+.menus ul{
+    
+    display: flex;
+    text-align: center;
+    
+}
+
+.menus ul li a {
+    
+    text-decoration: none;
+    padding: 25px;
+        
+}
+
+
+
+
+.logo , .options{
+    
+    margin-top: 39px;
+}
+
+.logo b{
+    
+    font-size: 80px;
+    padding: 2px;
+    padding: 10px;
+    
+    
+}
+.logo{
+
+    width: 30px;
+    height: 50px;
+    margin-top: 20px ;
+    margin-left: -40px;
+    
+}
+
+
+.options{
+    
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 23px;
+    margin-right: -20px;
+    padding: 20px;
+    height: 75px;
+}
+
+.options a{
+    
+    text-decoration: none;
+    border: 2px solid black;
+    
+}
+
+.options a b{
+    font-size: 30px;
+}
+
+
+audio{
+    
+    position: relative;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+
+img{
+    
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 250px;
+    left: 289px;
+    border: 30px solid white;
+    border-radius: 30px;
+}
+
+h2{
+    font-size: 100px;
+    text-align: center;
+    align-content: center;
+    margin-top: 300px;
+    
+    
+}
+
+#info1{
+    
+    font-size: 21px;
+    padding-left: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    
+    
+    
+}
+
+
+.mess{
+    
+    border: 10px solid white;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 50px;
+    box-shadow: 30px 30px 10px grey;
+    
+}
+
